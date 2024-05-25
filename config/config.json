@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "danielrowin",
+    "password": "Chelsea2021",
+    "database": "rakamin",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

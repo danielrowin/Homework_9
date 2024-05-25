@@ -1,0 +1,31 @@
+toc.dat                                                                                           
+0000600 0004000 0002000 00000003473 14376377662 0014473 0                                                                                                   
+ustar 00postgres                        postgres                        0000000 0000000                                                                                                                                                                        PGDMP       -                    {            movies    15.2    15.2     ú           0    0    ENCODING    ENCODING        SET client_encoding = 'UTF8';
+                      false         û           0    0 
+   STDSTRINGS 
+   STDSTRINGS     (   SET standard_conforming_strings = 'on';
+                      false         ü           0    0 
+   SEARCHPATH 
+   SEARCHPATH     8   SELECT pg_catalog.set_config('search_path', '', false);
+                      false         ý           1262    16739    movies    DATABASE     }   CREATE DATABASE movies WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'English_Indonesia.1252';
+    DROP DATABASE movies;
+                postgres    false         ×            1259    16750    movies    TABLE     “   CREATE TABLE public.movies (
+    id integer,
+    title character varying(150),
+    genres character varying(50),
+    year character varying(50)
+);
+    DROP TABLE public.movies;
+       public         heap    postgres    false         Ö            1259    16743    users    TABLE     µ   CREATE TABLE public.users (
+    id integer,
+    email character varying(50),
+    gender character varying(50),
+    password character varying(50),
+    role character varying(50)
+);
+    DROP TABLE public.users;
+       public         heap    postgres    false         ÷          0    16750    movies 
+   TABLE DATA           9   COPY public.movies (id, title, genres, year) FROM stdin;
+    public          postgres    false    215       3319.dat ö          0    16743    users 
+   TABLE DATA           B   COPY public.users (id, email, gender, password, role) FROM stdin;
+    public          postgres    false    214       3318.dat
